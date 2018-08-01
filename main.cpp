@@ -76,7 +76,7 @@ int main(void) {
 
         hex_game.display();
 
-        std::cout << ((player == Player::FIRST) ? "First Player (G) Move" : "Second Player (R) Move") << std::endl;
+        std::cout << ((player == Player::FIRST) ? "First Player (G) Move, format: \"x, y\"" : "Second Player (R) Move, format: \"x, y\"") << std::endl;
 
         if ((player == Player::SECOND) && (computer == true)) {
             // Run Monte Carlo algorithm for computer player
